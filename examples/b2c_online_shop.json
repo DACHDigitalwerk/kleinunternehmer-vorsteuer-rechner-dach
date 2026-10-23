@@ -1,0 +1,10 @@
+{
+  "scenario": "Handmade / Kunsthandwerk Direktverkauf an Endverbraucher",
+  "country": "DE",
+  "planned_revenue": 21500.0,
+  "b2b_share_pct": 0.0,
+  "expenses_operating": 2200.0,
+  "investments": 500.0,
+  "admin_cost_standard_tax": 400.0,
+  "notes": "Bei 100% Endverbrauchern (B2C) spart die Kleinunternehmerregelung ca. 3.400 € netto pro Jahr, da keine Umsatzsteuer an das Finanzamt abzuführen ist."
+}
