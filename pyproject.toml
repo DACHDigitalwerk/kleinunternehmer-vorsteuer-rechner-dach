@@ -1,0 +1,59 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kleinunternehmer-dach"
+version = "1.0.0"
+authors = [
+    {name = "DACH Digitalwerk", email = "dach.digitalwerk@gmail.com"}
+]
+description = "DACH Kleinunternehmer- & USt-Vorsteuer-Rechner 2026 (EU-Kleinunternehmer-Richtlinie DE, AT, CH). Schwellenwert-Monitoring, Vorsteuer-Vergleich & CLI."
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+keywords = [
+    "kleinunternehmer",
+    "kleinunternehmerregelung",
+    "vorsteuer",
+    "vorsteuerabzug",
+    "umsatzsteuer",
+    "ustg",
+    "mwst",
+    "schwellenwert",
+    "fintech",
+    "legaltech",
+    "deutschland",
+    "oesterreich",
+    "schweiz"
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Financial and Insurance Industry",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Programming Language :: Python :: 3.15",
+    "Topic :: Office/Business :: Financial :: Accounting",
+]
+
+[project.urls]
+Homepage = "https://dach-digitalwerk.netlify.app/kleinunternehmer-vorsteuer-rechner/"
+Documentation = "https://github.com/DACHDigitalwerk/kleinunternehmer-vorsteuer-rechner-dach#readme"
+Repository = "https://github.com/DACHDigitalwerk/kleinunternehmer-vorsteuer-rechner-dach"
+"Bug Tracker" = "https://github.com/DACHDigitalwerk/kleinunternehmer-vorsteuer-rechner-dach/issues"
+
+[project.scripts]
+dach-kleinunternehmer = "kleinunternehmer_dach.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
