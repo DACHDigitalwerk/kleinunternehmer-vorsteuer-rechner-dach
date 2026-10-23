@@ -1,0 +1,10 @@
+{
+  "scenario": "IT-Freelancer mit hohem B2B-Anteil und Hardware-Investitionen",
+  "country": "DE",
+  "planned_revenue": 24000.0,
+  "b2b_share_pct": 90.0,
+  "expenses_operating": 3000.0,
+  "investments": 4500.0,
+  "admin_cost_standard_tax": 400.0,
+  "notes": "Bei 90% B2B und 7.500 € Ausgaben ist die Regelbesteuerung wirtschaftlich überlegen, da 1.425 € Vorsteuer erstattet werden und B2B-Kunden Vorsteuerabzug nutzen."
+}
